@@ -81,7 +81,7 @@ MiMo Trace solves this by providing the same observability standards you expect 
 
 ```bash
 # Clone the repo
-git clone https://github.com/nomaden/mimo-trace.git
+git clone https://github.com/swidaryanto/mimo-trace.git
 cd mimo-trace
 
 # Configure your MiMo API endpoint
