@@ -1,0 +1,55 @@
+============================================================
+   MiMo Trace — 1.6B TOKEN SUBMISSION PACKAGE
+   Target: https://100t.xiaomimimo.com/
+   Deadline: 28 Mei 2026 (5 hari lagi)
+============================================================
+
+=== STEP 1: BUKA HALAMAN ===
+1. Buka https://100t.xiaomimimo.com/
+2. Klik tombol "立即申请" (SUBMIT/APPLY)
+
+=== STEP 2: ISI FORM ===
+
+FIELD 01 — YOUR EMAIL:
+   nomadenfi@gmail.com
+
+FIELD 02 — WHICH AGENT TOOL DO YOU USE MOST (pilih multiple):
+   ✅ Hermes Agent
+   ✅ Cursor  
+   ✅ Custom agent I built
+
+FIELD 03 — PRIMARY MODEL SERIES YOU USE:
+   ✅ MiMo
+
+FIELD 04 — DESCRIBE WHAT YOU'VE BUILT:
+   Copy-paste dari file: work-description.txt
+   (file terpisah, gue udah siapin)
+
+FIELD 05 — PROOF OF USAGE & IMPACT:
+   Upload file: dashboard-main.png
+   (ada di folder screenshots/)
+
+FIELD 06 — DEMO / GITHUB LINK (opsional, tapi strongly recommended):
+   https://github.com/nomaden/mimo-trace
+   (lo perlu push dulu repo-nya — liat STEP 3)
+
+=== STEP 3: PUSH GITHUB REPO ===
+Repo udah siap di /home/ubuntu/mimo-trace/
+Tinggal:
+   1. Bikin repo baru di GitHub: https://github.com/new
+      - Name: mimo-trace
+      - Description: Agent Observability & Anomaly Detection for MiMo-Powered Workflows
+      - Public
+   2. Push:
+      cd /home/ubuntu/mimo-trace
+      git remote add origin https://github.com/nomaden/mimo-trace.git
+      git add -A
+      git commit -m "Initial release: MiMo Trace observability platform"
+      git push -u origin main
+
+=== STEP 4: CAPTCHA & SUBMIT ===
+Selesaikan captcha (slider/image verification)
+Klik SUBMIT ✅
+
+Review: ~3 hari kerja, hasil masuk ke nomadenfi@gmail.com
+============================================================
