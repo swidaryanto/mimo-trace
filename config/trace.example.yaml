@@ -1,0 +1,39 @@
+# MiMo Trace Configuration
+# Copy this file to trace.yaml and customize
+
+agents:
+  - name: hermes-orchestrator
+    type: orchestrator
+    model: mimo-v2.5-pro
+    max_tokens_per_task: 500000
+    alert_on:
+      - latency_spike_3x
+      - error_rate_5pct
+  
+  - name: code-reviewer
+    type: worker
+    model: mimo-v2.5
+    max_tokens_per_task: 250000
+  
+  - name: design-auditor
+    type: worker
+    model: mimo-v2.5-pro
+    max_tokens_per_task: 300000
+
+monitoring:
+  anomaly_detection:
+    latency_spike_threshold: 3.0    # x baseline
+    error_rate_threshold: 0.05      # 5%
+    token_overrun_threshold: 1.2    # 120% of budget
+  
+  alerts:
+    channels:
+      - type: dashboard
+      - type: webhook
+        url: ""
+
+mimo:
+  base_url: "https://token-plan-sgp.xiaomimimo.com/v1"
+  model: mimo-v2.5-pro
+  headers:
+    trace_enabled: true
