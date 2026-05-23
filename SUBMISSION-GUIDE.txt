@@ -30,7 +30,7 @@ FIELD 05 — PROOF OF USAGE & IMPACT:
    (ada di folder screenshots/)
 
 FIELD 06 — DEMO / GITHUB LINK (opsional, tapi strongly recommended):
-   https://github.com/nomaden/mimo-trace
+   https://github.com/swidaryanto/mimo-trace
    (lo perlu push dulu repo-nya — liat STEP 3)
 
 === STEP 3: PUSH GITHUB REPO ===
@@ -42,7 +42,7 @@ Tinggal:
       - Public
    2. Push:
       cd /home/ubuntu/mimo-trace
-      git remote add origin https://github.com/nomaden/mimo-trace.git
+      git remote add origin https://github.com/swidaryanto/mimo-trace.git
       git add -A
       git commit -m "Initial release: MiMo Trace observability platform"
       git push -u origin main
